@@ -1,9 +1,20 @@
-flake8
-black
-mypy
+flake8~=4.0.1
+black~=22.3.0
+mypy~=0.942
 
 # dodatkowe opcje:
 # -r core.txt
 
 # uzycie:
 # pip install -r requirements.txt
+pip~=21.1.2
+wheel~=0.36.2
+py~=1.11.0
+pytest~=7.1.1
+tomli~=2.0.1
+platformdirs~=2.5.2
+colorama~=0.4.4
+pathspec~=0.9.0
+click~=8.1.2
+setuptools~=57.0.0
+pyflakes~=2.4.0

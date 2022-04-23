@@ -22,4 +22,3 @@ class TestDecrypt(unittest.TestCase):
         self.assertEqual(decrypt("d", 3), "a")
     def test_space_decrypt(self):
         self.assertEqual(decrypt(" ", 7), " ")
-
